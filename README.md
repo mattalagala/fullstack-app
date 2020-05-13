@@ -18,7 +18,8 @@ cat package.json
 npm knex init 
 -- creates knexfile.js
 -- make sure knexfile.js has development
-<
+
+```
         module.exports = {
 
         development: {
@@ -38,8 +39,10 @@ npm knex init
         }
 
         };
+```
 
->
+
+
 
 
 
