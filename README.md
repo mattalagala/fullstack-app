@@ -17,7 +17,7 @@ cat package.json
 
 npm knex init 
 -- creates knexfile.js
--- make sure knexfile.js has development
+-- make sure knexfile.js has development environment info. 
 
 ```
         module.exports = {

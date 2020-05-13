@@ -1,0 +1,12 @@
+{
+  "name": "listapp",
+  "version": "1.0.0",
+  "description": "list of lists",
+  "main": "app.js",
+  "author": "Matt Alagala <matt15y@gmail.com>",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.1",
+    "pg": "^8.2.0"
+  }
+}
