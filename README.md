@@ -1,4 +1,7 @@
-# Installation
+# Full Stack App Exercise
+Create an app that interfaces psql db with frontend. 
+
+## Installation
 
 npm init 
 -- creates package.json
@@ -41,8 +44,28 @@ npm knex init
         };
 ```
 
+create 'knexfile_example.js' -- hides db login information from public repo
 
+```
+module.exports = {
 
+  development: {
+    client: 'postgresql',
+    connection: {
+      database: 'your database',
+      user:     'your username',
+      password: 'your password'
+    },
+    pool: {
+      min: 2,
+      max: 10
+    },
+    migrations: {
+      tableName: 'knex_migrations'
+    }
+  }
 
+};
 
+```
 
