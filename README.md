@@ -29,8 +29,8 @@ npm knex init
             client: 'postgresql',
             connection: {
             database: 'northwind',
-            user:     'postgres',
-            password: 'Longbow15Y'
+            user:     '------',
+            password: '------'
             },
             pool: {
             min: 2,
