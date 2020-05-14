@@ -17,5 +17,5 @@ exports.up = function(knex) {
 };
 
 exports.down = function(knex) {
-    return knew.raw(dropListItemsQuery)
+    return knex.raw(dropListItemsQuery)
 };
