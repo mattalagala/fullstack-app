@@ -6,10 +6,15 @@
   "author": "Matt Alagala <matt15y@gmail.com>",
   "dependencies": {
     "express": "4.17.1",
+    "hbs": "4.1.1",
     "knex": "0.21.1",
     "pg": "8.2.0"
   },
   "devDependencies": {
-    "PostgresSQL extension for VS Code": "Chris Kolkman"
+    "PostgresSQL extension for VS Code": "Chris Kolkman",
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start-dev": "nodemon app.js"
   }
 }

@@ -1,7 +1,7 @@
 # Full Stack App Exercise
 Create an app that interfaces psql db with frontend. 
 
-## Installation
+## SETUP
 
 npm init 
 -- creates package.json
@@ -68,4 +68,12 @@ module.exports = {
 };
 
 ```
+
+Create app.js
+
+Serve static files:
+
+npm run start dev (starts Nodemon)
+
+NPM INSTALL HBS -- Express handlebars template
 
